@@ -173,7 +173,7 @@ def rodarforca():
             print(f'você errou, vez do próximo jogador:')
             lista_jogadores[vez]['erro'] += 1
             desenha_forca(lista_jogadores[vez]['erro'])
-            if lista_jogadores[vez]['erro'] == 6:
+            if lista_jogadores[vez]['erro'] == 7:
                 print('você perdeu playboy')
                 print(f' A Palavra era : {lista_jogadores[vez]["palavra_secreta"]}')
 
