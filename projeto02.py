@@ -127,7 +127,7 @@ def rodarforca():
 
             if '_' not in lista_jogadores[vez]['letras_acertadas']:
                 print(lista_jogadores[vez]['letras_acertadas'])
-                print('você ganhou!!!')
+                print('você ganhou!')
                 ganhou()
 
         else:
