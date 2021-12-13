@@ -189,3 +189,4 @@ def jogar():
     letrasacertadas()
     rodarforca()
 jogar()
+#jonatas commit
