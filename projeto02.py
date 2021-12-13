@@ -12,7 +12,7 @@ lista_jogadores = []
 
 def pegar_quantidade_de_jogadores():
     while True:
-        quantidade_jogadores = int(input('quantas pessoas vão jogar ?'))
+        quantidade_jogadores = int(input('quantas pessoas vão jogar? (de 2 a 5 jogadores)'))
         if 2 <= quantidade_jogadores <= 5:
             return quantidade_jogadores
         print('digite uma opção válida.')
