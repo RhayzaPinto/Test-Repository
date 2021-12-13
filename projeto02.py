@@ -123,11 +123,11 @@ def rodarforca():
                 if chute == letra.upper():
                     lista_jogadores[vez]['letras_acertadas'][index] = letra
 
-                index = index + 1
+                index += 1
 
             if '_' not in lista_jogadores[vez]['letras_acertadas']:
                 print(lista_jogadores[vez]['letras_acertadas'])
-                print('você ganhou!!!')
+                print('você ganhou!')
                 ganhou()
 
         else:
